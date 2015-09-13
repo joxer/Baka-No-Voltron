@@ -1,0 +1,320 @@
+
+Updating source code.
+
+Updating build files.
+Resolved location of library project to: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library
+Updated and renamed default.properties to project.properties
+Updated local.properties
+Added file ./build.xml
+Updated file ./proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+
+
+
+
+Creating assets directory.
+
+Packaging internal data.
+
+I'm using Ant to build the package.
+Buildfile: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/build.xml
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: BakuNoVoltron-1.1
+  [gettype] Project Type: Application
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for BakuNoVoltron-1.1...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for BakuNoVoltron-1.1...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'release'...
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for library...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] No changes in the AndroidManifest files.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/res
+   [crunch] To destination dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+  [taskdef] Could not load definitions from resource emma_ant.properties. It could not be found.
+
+nodeps:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.0
+ [checkenv] Installed at /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23
+
+-setup:
+     [echo] Project Name: downloader_library
+  [gettype] Project Type: Android Library
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for downloader_library...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for downloader_library...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] No changes in the AndroidManifest files.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/res
+   [crunch] To destination dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+     [echo] 
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/build.prop
+
+-release-sign:
+
+-post-build:
+
+release:
+
+-code-gen:
+[mergemanifest] Found modified input file
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] Found 1 AIDL files.
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found modified input file
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 4 source files to /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 3 warnings
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/classes
+      [dex] input: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/classes.jar
+      [dex] input: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/classes.jar
+      [dex] input: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/libs/amazon-iap-2.0.1.jar
+      [dex] input: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/libs/ouya-sdk.jar
+      [dex] Using Pre-Dexed classes-62b40fa4fa520be6e48f08c241e69255.jar <- /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_apk_expansion/downloader_library/bin/classes.jar
+      [dex] Using Pre-Dexed classes-a3c16fd0cd70cfec5059f845765f4ec0.jar <- /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/android-sdk-r23/extras/google/play_licensing/library/bin/classes.jar
+      [dex] Using Pre-Dexed amazon-iap-2.0.1-f08453fa3e09a5060421ca80952cd317.jar <- /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/libs/amazon-iap-2.0.1.jar
+      [dex] Using Pre-Dexed ouya-sdk-e52f8582842b41e25ad1a8500d669b4e.jar <- /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/libs/ouya-sdk.jar
+      [dex] Found modified input file
+      [dex] Converting compiled files and external libraries into /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/classes.dex...
+       [dx] Merged dex A (63 defs/79,8KiB) with dex B (47 defs/88,1KiB). Result is 110 defs/197,1KiB. Took 0,4s
+       [dx] Merged dex A (110 defs/197,1KiB) with dex B (25 defs/35,5KiB). Result is 135 defs/283,2KiB. Took 0,3s
+       [dx] Merged dex A (135 defs/283,2KiB) with dex B (90 defs/79,8KiB). Result is 225 defs/467,8KiB. Took 0,1s
+       [dx] Merged dex A (225 defs/467,8KiB) with dex B (138 defs/123,2KiB). Result is 363 defs/802,8KiB. Took 0,1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/res
+   [crunch] To destination dir: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/res
+   [crunch] Processing image to cache: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/res/drawable/icon.png => /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/res/drawable/icon.png
+   [crunch]   (processed image to cache entry /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/res/drawable/icon.png: 96% size of source)
+   [crunch] Crunched 1 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Creating BakuNoVoltron-1.1-release-unsigned.apk for release...
+
+-post-package:
+
+-release-prompt-for-password:
+
+-release-nosign:
+
+-release-sign:
+     [echo] Signing final apk...
+ [zipalign] Running zip align on final apk...
+     [echo] Release Package: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/BakuNoVoltron-1.1-release.apk
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/build.prop
+[propertyfile] Updating property file: /home/joxer/code/renpy/renpy-6.99.1-sdk/rapt/bin/build.prop
+
+-post-build:
+
+release:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+
+
+
+
+The build seems to have succeeded.
